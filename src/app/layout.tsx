@@ -17,9 +17,7 @@ export default function RootLayout({
       <body
         className= {`antialiased   scrollbar scrollbar-white`}
       >
-        <AuthProvider>
         {children}
-        </AuthProvider>
       </body>
     </html>
   );
